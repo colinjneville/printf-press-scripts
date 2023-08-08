@@ -1,0 +1,29 @@
+Data Types:
+	Signed Integer
+		Symbol: i
+		Literal: ["+" | "-"], digit, {digit}
+	Frame Index
+		Symbol: f
+		Literal: "f", digit
+		Represents a segment of a Roller. "f0" represents the upper-most segment, "f1" the one below "f0", and so on.
+		It is a runtime error to use a frame index for a segment that does not exist for the executing Roller.
+	Channel Index
+		Symbol: c
+		Literal: "c", digit
+		Represents a communication channel
+	Color
+	
+
+mvl
+	Move Left
+mvr
+	Move Right
+mvd
+	Move Down
+mvu
+	Move Up
+shl
+
+shr
+jmp
+out
